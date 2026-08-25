@@ -4,7 +4,7 @@ Manages all Pharmacy website and Product data. Pharmacy Assistant 1.3.5.0 is a C
 
 **Source last updated:** 2013-09-09  
 **Language:** C#  
-**Target:** .NET 3.5  
+**Target:** .NET 3.5 (CLR 2.0)  
 **Output:** WinForms exe
 
 ## Solution structure
