@@ -13,6 +13,7 @@ Dave Robinson / VaderConsulting authored the Pharmacy Assistant suite. The follo
 - **DotNetOpenAuth 4.3.0** — DotNetOpenAuth
 - **Newtonsoft.Json 5.0.5** — James Newton-King
 - **Modernizr 2.6.2**, **knockoutjs 2.2.1** (MIT), **WebGrease 1.3.0**
-- **Sibling helper projects** (not in this repo): Zeta HTML Edit Control, i00SpellCheck, Linqkit, Core, RecurranceGenerator, System.Windows.Forms.Calendar.
+- **AutoUpdater.NET** — referenced from sibling Historical Dev folder `AutoUpdater Source` (`AutoUpdater.NET.dll`).
+- **Sibling helper projects** (not in this repo): Zeta HTML Edit Control, i00SpellCheck, Linqkit, Core, RecurranceGenerator, System.Windows.Forms.Calendar, AutoUpdater Source.
 
 VaderConsulting/Dave Robinson did not author the third-party portions identified above.

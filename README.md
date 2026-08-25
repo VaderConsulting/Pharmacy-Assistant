@@ -23,7 +23,7 @@ Open `Pharmacy Assistant.sln` in Visual Studio (VS 2012 solution). The sln also 
 
 ## Attribution and provenance
 
-Dave Robinson / VaderConsulting. Assembly title Pharmacy Assistant; assembly company Vader Consulting; assembly copyright 2013 Vader Consulting. Assembly description records calendar code from Jose Menendez Póo (CodeProject, http://www.codeproject.com/Articles/38699/A-Professional-Calendar-Agenda-View-That-You-Will). AutoUpdate feed at http://logonengine.com/AutoUpdate/PharmacyAssistant/ reports version 1.3.5.0. NuGet packages in `packages/` are gitignored. See `THIRD_PARTY_NOTICES.md`.
+Dave Robinson / VaderConsulting. Assembly title Pharmacy Assistant; assembly company Vader Consulting; assembly copyright 2013 Vader Consulting. Assembly description records calendar code from Jose Menendez Póo (CodeProject, http://www.codeproject.com/Articles/38699/A-Professional-Calendar-Agenda-View-That-You-Will). AutoUpdate feed at http://logonengine.com/AutoUpdate/PharmacyAssistant/ reports version 1.3.5.0. AutoUpdater.NET is referenced from sibling Historical Dev folder `AutoUpdater Source`. NuGet packages in `packages/` are gitignored. See `THIRD_PARTY_NOTICES.md`.
 
 ## License
 
