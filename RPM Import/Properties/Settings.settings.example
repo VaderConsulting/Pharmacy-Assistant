@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RPM_Import.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SourceConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=headoffice\corumhs;Initial Catalog=RPM;User ID=REDACTED;Password=REDACTED;</Value>
+    </Setting>
+    <Setting Name="SourceDevConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=t3400-8;Initial Catalog=RPM;User ID=REDACTED;Password=REDACTED;</Value>
+    </Setting>
+    <Setting Name="DestinationConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=tcp:sql2k1201.discountasp.net;Initial Catalog=SQL2012_925925_savemor;User ID=REDACTED;Password=REDACTED;</Value>
+    </Setting>
+    <Setting Name="DestinationDevConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=vaderconsulting\sqlexpress;Initial Catalog=SQL2012_925925_savemor;User ID=REDACTED;Password=REDACTED;</Value>
+    </Setting>
+    <Setting Name="ImportQuery" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SELECT DISTINCT 
+    pp.ProductID, 
+    CAST(ISNULL(pp.Retail,0) AS float) / 100 AS Price, 
+    ISNULL(p.CosmosUPI,0) AS UPI, 
+    ISNULL(p.Description,'') AS Name, 
+    CAST(ISNULL(p.Deleted,0) AS bit) As Deleted 
+FROM Product p 
+INNER JOIN [dbo].[ProductPricing] pp ON p.ProductID = pp.ProductID 
+LEFT JOIN StoreProducts s ON s.ProductID = p.ProductID 
+WHERE pp.active = 1 AND pp.zoneid = 17 AND s.SOH &gt;0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
