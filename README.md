@@ -21,6 +21,10 @@ Manages all Pharmacy website and Product data. Pharmacy Assistant 1.3.5.0 is a C
 
 Open `Pharmacy Assistant.sln` in Visual Studio (VS 2012 solution). The sln also references sibling Historical Dev folders via `..\` that are other repos, not this tree: `Zeta HTML Edit Control`, `i00SpellCheck`, `Linqkit`, `Core`, `System.Windows.Forms.Calendar`, and `RecurranceGenerator`. Connection strings, FTP defaults, and generated settings are gitignored; copy the matching `*.example` files.
 
+## Requirements
+
+- Visual Studio 2012, .NET Framework 3.5
+
 ## Attribution and provenance
 
 Dave Robinson / VaderConsulting. Assembly title Pharmacy Assistant; assembly company Vader Consulting; assembly copyright 2013 Vader Consulting. Assembly description records calendar code from Jose Menendez Póo (CodeProject, http://www.codeproject.com/Articles/38699/A-Professional-Calendar-Agenda-View-That-You-Will). AutoUpdate feed at http://logonengine.com/AutoUpdate/PharmacyAssistant/ reports version 1.3.5.0. AutoUpdater.NET is referenced from sibling Historical Dev folder `AutoUpdater Source`. NuGet packages in `packages/` are gitignored. See `THIRD_PARTY_NOTICES.md`.
