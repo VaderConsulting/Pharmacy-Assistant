@@ -1,6 +1,6 @@
 # Pharmacy Assistant
 
-Manages all Pharmacy website and Product data. Pharmacy Assistant 1.3.5.0 is a C# .NET 3.5 WinForms program that logs on against SQL Server, then edits catalogs, products, stores, documents, events, tasks, and user accounts for the Savemor pharmacy site, publishes files over FTP, and checks for updates via AutoUpdater.NET. Companion RPM Import loads RPM/Corum pricing into the product database; this 2013 working copy from Dave Robinson / VaderConsulting predates Pharmacy Assist.
+Manages all Pharmacy website and Product data. Pharmacy Assistant 1.3.5.0 is a C# .NET 3.5 WinForms program that logs on against SQL Server, then edits catalogs, products, stores, documents, events, tasks, and user accounts for the Savemor pharmacy site, publishes files over FTP, and checks for updates via AutoUpdater.NET. Companion RPM Import loads RPM/Corum pricing into the product database; this 2013 working copy from Dave Robinson / Vader Consulting predates Pharmacy Assist.
 
 **Source last updated:** 2013-09-09  
 **Language:** C#  
@@ -29,8 +29,8 @@ Open `Pharmacy Assistant.sln` in Visual Studio (VS 2012 solution). The sln also 
 
 Working copy from my Historical Dev folder.
 
-Dave Robinson / VaderConsulting. Assembly title Pharmacy Assistant; assembly company Vader Consulting; assembly copyright 2013 Vader Consulting. Assembly description records calendar code from Jose Menendez Póo (CodeProject, http://www.codeproject.com/Articles/38699/A-Professional-Calendar-Agenda-View-That-You-Will). AutoUpdate feed at http://logonengine.com/AutoUpdate/PharmacyAssistant/ reports version 1.3.5.0. AutoUpdater.NET is referenced from sibling Historical Dev folder `AutoUpdater Source`. NuGet packages in `packages/` are gitignored. See `THIRD_PARTY_NOTICES.md`.
+Dave Robinson / Vader Consulting. Assembly title Pharmacy Assistant; assembly company Vader Consulting; assembly copyright 2013 Vader Consulting. Assembly description records calendar code from Jose Menendez Póo (CodeProject, http://www.codeproject.com/Articles/38699/A-Professional-Calendar-Agenda-View-That-You-Will). AutoUpdate feed at http://logonengine.com/AutoUpdate/PharmacyAssistant/ reports version 1.3.5.0. AutoUpdater.NET is referenced from sibling Historical Dev folder `AutoUpdater Source`. NuGet packages in `packages/` are gitignored. See `THIRD_PARTY_NOTICES.md`.
 
 ## License
 
-MIT License. Copyright (c) 2026 VaderConsulting. See `LICENSE`.
+MIT License. Copyright (c) 2026 Vader Consulting. See `LICENSE`.

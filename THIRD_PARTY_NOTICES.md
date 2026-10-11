@@ -1,6 +1,6 @@
 # Third-Party Notices — Pharmacy Assistant
 
-Dave Robinson / VaderConsulting authored the Pharmacy Assistant suite. The following third-party components appear in this working copy (NuGet packages lived under `packages/` and are gitignored).
+Dave Robinson / Vader Consulting authored the Pharmacy Assistant suite. The following third-party components appear in this working copy (NuGet packages lived under `packages/` and are gitignored).
 
 - **Calendar agenda view** — Jose Menendez Póo, CodeProject article “A Professional Calendar Agenda View That You Will…” (http://www.codeproject.com/Articles/38699/A-Professional-Calendar-Agenda-View-That-You-Will). Typically published under The Code Project Open License (CPOL). A fuller copy lives in Historical Dev repo `System.Windows.Forms.Calendar`.
 - **jQuery 2.0.1** — jQuery Foundation, Inc. MIT (`http://jquery.org/license`). http://jquery.com/
